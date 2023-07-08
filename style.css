@@ -31,7 +31,9 @@ p {
 }
 
 .display p {
+  -webkit-user-select: text;
   user-select: text;
+  -webkit-touch-callout: text;
 }
 
 .btn {
@@ -66,4 +68,7 @@ p {
 footer {
   color: aliceblue;
   text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
